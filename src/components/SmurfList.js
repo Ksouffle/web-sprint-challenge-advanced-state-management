@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Smurf from "./Smurf";
 import { fetchSmurfs } from "../actions";
 import { connect } from "react-redux";

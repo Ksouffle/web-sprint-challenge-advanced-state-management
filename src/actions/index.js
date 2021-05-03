@@ -19,10 +19,10 @@ export const fetchSmurfs = () => (dispatch) => {
 
 export const ADD_SMURF = "ADD_SMURF";
 
-export const addSmurf = (smurfName) => {
+export const addSmurf = (smurfDetails) => {
   return {
     type: ADD_SMURF,
-    payload: smurfName,
+    payload: smurfDetails,
   };
 };
 

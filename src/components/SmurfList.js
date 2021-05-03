@@ -9,9 +9,7 @@ const SmurfList = (props) => {
     props.fetchSmurfs();
   };
 
-  const isLoading = props.isLoading;
-
-  if (isLoading) {
+  if (props.isLoading) {
     return <h1>Loading...</h1>;
   }
 
